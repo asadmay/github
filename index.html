@@ -9,8 +9,8 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?9272">
-	<link rel="stylesheet" type="text/css" href="style.css?964">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1084">
+	<link rel="stylesheet" type="text/css" href="style.css?1291">
 	<link href='https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>GitHub Pages - как разместить статический сайт</title>
 
@@ -36,10 +36,10 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col">
-				<nav class="navbar navbar-light row navbar-expand-md" role="navigation">
-					<div class="container-fluid ">
-						<a class="navbar-brand" href="index.html">GitHub Pages</a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-35324">
+				<nav class="navbar navbar-light row navbar-expand-md hover-open-submenu" role="navigation">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html">Github Pages</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-35324">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse navbar-35324">
@@ -48,13 +48,13 @@
 									<a href="quickstart.html" class="nav-link">Быстрый старт</a>
 								</li>
 								<li class="nav-item">
-									<a href="getting-started-with-github-pages.html" class="a-btn nav-link">Начало работы</a>
+									<a href="#" class="a-btn nav-link" data-scroll-speed="1000" onclick="scrollToTarget('#start',this)">Начало работы</a>
 								</li>
 								<li class="nav-item">
-									<a href="quickstart.html" class="a-btn nav-link">Настройка сайта</a>
+									<a href="#" class="a-btn nav-link" data-scroll-speed="1000" onclick="scrollToTarget('#web',this)">Настройка сайта</a>
 								</li>
 								<li class="nav-item">
-									<a href="quickstart.html" class="a-btn nav-link">Настройка домена</a>
+									<a href="#" class="a-btn nav-link" data-scroll-speed="1000" onclick="scrollToTarget('#domen',this)">Настройка домена</a>
 								</li>
 							</ul>
 						</div>
@@ -67,50 +67,166 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc l-bloc " id="bloc-1">
+<div class="bloc l-bloc" id="bloc-1">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col">
+			<div class="col-lg-8">
 				<h1 class="mg-md">
 					GitHub Pages инструкции
 				</h1>
-				<h2 class="mg-md">
-					Вы можете создать сайт прямо из репозитория на GitHub.com
-				</h2>
 				<p class="mg-lg">
-					GitHub Pages доступен в общедоступных репозиториях с GitHub Free и GitHub Free для организаций, а также в общедоступных и частных репозиториях с GitHub Pro, GitHub Team, GitHub Enterprise Cloud и GitHub Enterprise Server.
+					Вы можете создать сайт прямо из репозитория на GitHub.com<br>GitHub Pages доступен в общедоступных репозиториях с GitHub Free и GitHub Free для организаций, а также в общедоступных и частных репозиториях с GitHub Pro, GitHub Team, GitHub Enterprise Cloud и GitHub Enterprise Server.
 				</p>
-				<div>
-					<h3 class="mg-md">
+				<div class="div">
+					<h2 class="mg-md">
 						<a class="link-style" href="quickstart.html">Быстрый старт для GitHub Pages</a><br>
-					</h3>
+					</h2>
 					<p class="mg-lg">
 						Вы можете использовать GitHub Pages, чтобы продемонстрировать некоторые проекты с открытым исходным кодом, разместить блог или даже поделиться своим резюме. Это руководство поможет вам приступить к созданию вашего следующего веб-сайта.
 					</p>
 				</div>
-				<div>
-					<h3 class="mg-md">
-						<a class="link-style" href="getting-started-with-github-pages.html">Начало работы с GitHub Pages</a><br>
-					</h3>
+				<div class="div" id="start">
+					<h2 class="mg-md">
+						<a class="link-style" href="index.html">Начало работы с GitHub Pages</a><br>
+					</h2>
 					<p class="mg-lg">
 						Вы можете настроить базовый сайт GitHub Pages для себя, своей организации или проекта.
 					</p>
+					<ul class="list-unstyled">
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">О страницах GitHub</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Создание сайта GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Добавление темы на сайт GitHub Pages с помощью средства выбора темы</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Настройка источника публикации для вашего сайта GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Создание пользовательской страницы 404 для вашего сайта GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Защита вашего сайта GitHub Pages с помощью HTTPS</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Использование подмодулей с GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Отмена публикации сайта GitHub Pages</a><br>
+							</h3>
+						</li>
+					</ul>
 				</div>
-				<div>
-					<h3 class="mg-md">
+				<div class="div" id="web">
+					<h2 class="mg-md">
 						<a class="link-style" href="index.html">Настройка сайта GitHub Pages с помощью Jekyll</a><br>
-					</h3>
-					<p class="mg-lg">
+					</h2>
+					<p class="mg-md">
 						Вы можете использовать популярный генератор статических сайтов Jekyll для дальнейшей настройки своего сайта GitHub Pages.
 					</p>
+					<ul class="list-unstyled">
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">О GitHub Pages и Jekyll</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Создание сайта GitHub Pages с помощью Jekyll</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Локальное тестирование сайта GitHub Pages с помощью Jekyll</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Добавление контента на сайт GitHub Pages с помощью Jekyll</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Настройка процессора Markdown для вашего сайта GitHub Pages с помощью Jekyll</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Добавление темы на ваш сайт GitHub Pages с помощью Jekyll</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Об ошибках сборки Jekyll для сайтов GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Устранение ошибок сборки Jekyll для сайтов GitHub Pages</a><br>
+							</h3>
+						</li>
+					</ul>
 				</div>
-				<div>
-					<h3 class="mg-md">
+				<div class="div" id="domen">
+					<h2 class="mg-md">
 						<a class="link-style" href="index.html">Настройка личного домена для вашего сайта GitHub Pages</a><br>
-					</h3>
+					</h2>
 					<p class="mg-lg">
 						Вы можете настроить доменное имя своего сайта GitHub Pages.
 					</p>
+					<ul class="list-unstyled">
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">О пользовательских доменах и страницах GitHub</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Управление собственным доменом для вашего сайта GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Проверка личного домена для GitHub Pages</a><br>
+							</h3>
+						</li>
+						<li>
+							<h3 class="mg-md">
+								<a href="index.html">Устранение неполадок с персональными доменами и страницами GitHub</a><br>
+							</h3>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<div >
+					<!-- Yandex.RTB R-A-587612-1 -->
+<div id="yandex_rtb_R-A-587612-1"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-587612-1',
+    blockId: 'R-A-587612-1'
+  })
+})</script>
+					
 				</div>
 			</div>
 		</div>
@@ -129,8 +245,8 @@
 
 
 <!-- Additional JS -->
-<script src="./js/bootstrap.bundle.min.js?5961"></script>
-<script src="./js/blocs.min.js?3726"></script>
+<script src="./js/bootstrap.bundle.min.js?4425"></script>
+<script src="./js/blocs.min.js?3964"></script>
 <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
 
 

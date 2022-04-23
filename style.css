@@ -116,6 +116,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:100%;
 	left:auto}
 }
+/* = Open menus on hover
+-------------------------------------------------------------- */
+@media (min-width: 992px){
+	.hover-open-submenu li:hover > .dropdown > .dropdown-menu, .hover-open-submenu .dropdown-menu > li:hover .dropdown-menu{
+	display: block;
+}
+.hover-open-submenu li .dropdown .dropdown-menu{
+	margin-top:0;
+}
+}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
@@ -223,6 +233,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-style{
 	text-decoration:none;
+}
+.div{
+	margin-top:20px;
+	margin-bottom:40px;
+	border-style:_NS:1874;
+}
+h3{
+	font-family:"Roboto";
+	font-size:20px;
 }
 
 /* = Colour
