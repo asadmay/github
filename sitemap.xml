@@ -62,4 +62,42 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>https://github.asadpro.ru/creating-a-github-pages-site.html</loc>
+	<lastmod>2022-04-23</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/repo-create.png</image:loc>
+	<image:title>repo create</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/create-repository-owner.png</image:loc>
+	<image:title>create repository-owner</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/create-repository-name-pages.png</image:loc>
+	<image:title>create repository-name-pages</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/create-repository-public-private.png</image:loc>
+	<image:title>create repository-public-private</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/initialize-with-readme.png</image:loc>
+	<image:title>initialize with-readme</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/create-repository-button.png</image:loc>
+	<image:title>create repository-button</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
