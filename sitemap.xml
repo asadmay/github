@@ -92,6 +92,14 @@
 	<image:title>create repository-button</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://github.asadpro.ru/img/repo-actions-settings.png</image:loc>
+	<image:title>repo actions-settings</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/click-pages-url-to-preview.png</image:loc>
+	<image:title>click pages-url-to-preview</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://github.asadpro.ru/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
