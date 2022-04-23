@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>https://github.asadpro.ru</loc>
+	<lastmod>2022-04-23</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://github.asadpro.ru/quickstart.html</loc>
+	<lastmod>2022-04-23</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/repo-create.png</image:loc>
+	<image:title>repo create</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/create-repository-name-pages.png</image:loc>
+	<image:title>create repository-name-pages</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/repo-actions-settings.png</image:loc>
+	<image:title>repo actions-settings</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/choose-theme.png</image:loc>
+	<image:title>choose theme</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/select-theme.png</image:loc>
+	<image:title>select theme</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://github.asadpro.ru/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
