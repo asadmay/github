@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: https://githhub.asadpro.ru
+Sitemap: https://githhub.asadpro.ru/sitemap.xml
